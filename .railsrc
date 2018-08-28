@@ -1,0 +1,4 @@
+--skip-bundle
+--skip-test
+-d postgresql
+-t template.rb
