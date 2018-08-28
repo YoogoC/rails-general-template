@@ -33,11 +33,11 @@ gem_group :development, :test do
   gem 'pry-doc', "~> 0.8.0"
   gem 'pry-byebug', "~> 3.4"
   gem "quiet_assets", "~> 1.0.2"
-  # gem "better_errors"
-  # gem "binding_of_caller"
+  gem "better_errors"
+  gem "binding_of_caller"
   gem "rspec-rails", "~> 3.1.0"
-  # gem 'guard-rspec', '~> 4.3.1'
-  # gem 'spring-commands-rspec', '~> 1.0.2'
+  gem 'guard-rspec', '~> 4.3.1'
+  gem 'spring-commands-rspec', '~> 1.0.2'
   gem 'did_you_mean'
   gem 'faker'
 end
