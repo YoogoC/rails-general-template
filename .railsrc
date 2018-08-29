@@ -1,4 +1,4 @@
 --skip-bundle
 --skip-test
 -d postgresql
--t template.rb
+-m https://github.com/YoogoC/rails-general-template/raw/master/template.rb
