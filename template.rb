@@ -2,13 +2,13 @@
 gem 'redis'
 gem 'bcrypt'
 gem 'mini_magick'
-gem 'bootstrap-sass'
-gem 'font-awesome-sass'
-gem 'jquery-ui-rails'
-gem 'jquery-slimscroll-rails'
-gem 'bootstrap-switch-rails'
-gem 'jquery-rails'
-gem 'jquery-cookie-rails'
+# gem 'bootstrap-sass'
+# gem 'font-awesome-sass'
+# gem 'jquery-ui-rails'
+# gem 'jquery-slimscroll-rails'
+# gem 'bootstrap-switch-rails'
+# gem 'jquery-rails'
+# gem 'jquery-cookie-rails'
 gem 'rest-client'
 gem 'whenever'
 gem 'will_paginate'
@@ -17,11 +17,10 @@ gem 'kaminari'
 gem "ransack"
 gem 'carrierwave'
 gem "paperclip"
-gem 'mini_magick'
-gem 'momentjs-rails'
-gem 'bootstrap3-datetimepicker-rails'
+# gem 'momentjs-rails'
+# gem 'bootstrap3-datetimepicker-rails'
 gem "simple_form"
-gem 'jquery-fileupload-rails'
+# gem 'jquery-fileupload-rails'
 gem 'redis-rails'
 gem 'redis-namespace'
 gem 'paper_trail'
@@ -29,15 +28,14 @@ gem "apipie-rails"
 gem 'ckeditor'
 gem_group :development, :test do
   gem "rspec-rails"
-  gem "pry-rails", "~> 0.3.2"
-  gem 'pry-doc', "~> 0.8.0"
-  gem 'pry-byebug', "~> 3.4"
-  gem "quiet_assets", "~> 1.0.2"
+  gem "pry-rails"
+  gem 'pry-doc'
+  gem 'pry-byebug'
+  gem "quiet_assets"
   gem "better_errors"
   gem "binding_of_caller"
-  gem "rspec-rails", "~> 3.1.0"
-  gem 'guard-rspec', '~> 4.3.1'
-  gem 'spring-commands-rspec', '~> 1.0.2'
+  gem 'guard-rspec'
+  gem 'spring-commands-rspec'
   gem 'did_you_mean'
   gem 'faker'
 end
